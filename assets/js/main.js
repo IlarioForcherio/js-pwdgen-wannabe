@@ -22,5 +22,8 @@ console.log(name);
 let surname = prompt('insert your surname');
 console.log(surname);
 //colore
-let surname = prompt('insert your surname');
-console.log(surname);
+let color = prompt('insert your favourite color');
+console.log(color);
+//numero
+let number = prompt('insert a number');
+console.log(number);
