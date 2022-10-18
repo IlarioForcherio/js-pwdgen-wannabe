@@ -25,5 +25,12 @@ console.log(surname);
 let color = prompt('insert your favourite color');
 console.log(color);
 //numero
-let number = prompt('insert a number');
+const number = 34;
 console.log(number);
+
+
+
+//frase finale
+
+document.getElementById('passwordOutput').innerHTML = `la tua password insicurisima è ${nome}${surname}${color}${number} `; 
+
