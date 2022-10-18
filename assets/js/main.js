@@ -32,5 +32,11 @@ console.log(number);
 
 //frase finale
 
-document.getElementById('passwordOutput').innerHTML = `la tua password insicurisima è ${nome}${surname}${color}${number} `; 
+document.getElementById('passwordOutput').innerHTML = `la tua password insicurisima è ${name}${surname}${color}${number} `;
+ 
+
+//Popovers
+
+const popoverTriggerList = document.querySelectorAll('[data-bs-toggle="popover"]')
+const popoverList = [...popoverTriggerList].map(popoverTriggerEl => new bootstrap.Popover(popoverTriggerEl))
 
